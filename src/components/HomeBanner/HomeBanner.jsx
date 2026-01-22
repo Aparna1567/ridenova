@@ -143,7 +143,7 @@ export default function HeroSleek() {
               </p>
             </div>
 
-            <a href="/cars" className="flex items-center gap-3">
+            <a href="#homecars" className="flex items-center gap-3">
               <button className={styles.ctaButton}>
                 <span className={styles.buttonText}>See fleet</span>
               </button>

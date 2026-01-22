@@ -6,7 +6,7 @@ import testimonials from './Testimonialdata';
 import { testimonialStyles as styles } from '../../assets/dummyStyles';
 
 const Testimonial = () => (
-  <div className={styles.container}>
+  <div className={styles.container} id="Testi"> 
     <div className={styles.innerContainer}>
       {/* Header */}
       <div className={styles.headerContainer}>
@@ -141,7 +141,7 @@ const Testimonial = () => (
         <p className={styles.ctaText}>
           Join thousands of satisfied customers who have experienced our premium fleet and exceptional service.
         </p>
-        <a href='/cars' className={styles.ctaButton}>
+        <a href='#homecars' className={styles.ctaButton}>
           Book Your Luxury Ride
         </a>
       </div>

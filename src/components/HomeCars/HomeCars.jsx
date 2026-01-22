@@ -29,7 +29,7 @@ const HomeCars = () => {
   const visibleCars = carsData.slice(0, 6);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="homecars">
       {/* Header */}
       <div className={styles.headerContainer}>
         <div className={styles.premiumBadge}>

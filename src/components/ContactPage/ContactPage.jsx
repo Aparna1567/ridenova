@@ -307,7 +307,7 @@ const ContactPage = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contactpage">
       <div className={styles.content}>
         {/* Title */}
         <div className={styles.titleContainer}>

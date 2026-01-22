@@ -54,10 +54,10 @@ const Footer = () => {
               <span className={styles.underline} />
             </h3>
             <ul className={styles.linkList}>
-              {['Home','Cars','Contact Us'].map((link, i) => (
+              {['Home','Cars','FAQ'].map((link, i) => (
                 <li key={i}>
-                  <a 
-                    href={link === 'Home' ? '/' : link === 'Contact Us' ? '/contact' : '/cars'} 
+                  <a
+                    href={link === 'Home' ? '#' : link === 'FAQ' ? '#Testi' : '#homecars'} 
                     className={styles.linkItem}
                   >
                     <span className={styles.bullet} />
@@ -128,10 +128,10 @@ const Footer = () => {
         <div className={styles.copyright}>
           <p>© {new Date().getFullYear()} RIDENOVA. All rights reserved.</p>
           <p className="mt-3 md:mt-0">
-            Designed by <a 
-              href="/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            Designed by <a
+              // href="/" 
+              // target="_blank" 
+              // rel="noopener noreferrer" 
               className={styles.designerLink}
             >
               Aparna - FrontEnd Developer
