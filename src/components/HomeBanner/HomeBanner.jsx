@@ -64,12 +64,19 @@ export default function HeroSleek() {
             transition: "transform 220ms cubic-bezier(.2,.9,.25,1)",
           }}
         >
-          <img
+          {/* <img
             src={img1}
             alt="Futuristic car"
             className="w-full object-center opacity-95"
-          />
-
+          /> */}
+          <img
+  src={img1}
+  alt="Futuristic car"
+  className="w-full object-center opacity-95"
+  fetchPriority="high"
+  loading="eager"
+  decoding="async"
+/>
           <div className={styles.gradientOverlay} />
         </div>
 
