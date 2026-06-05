@@ -251,7 +251,7 @@ const SignupPage = () => {
           color: "#ffffff",
           borderRadius: "16px",
           boxShadow: "0 4px 20px rgba(245,124,0,0.18)",
-          fontFamily: "'Montserrat', sans-serif"
+          // fontFamily: "'Montserrat', sans-serif"
         }}
       />
 

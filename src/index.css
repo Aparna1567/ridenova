@@ -5,9 +5,9 @@
 
 @custom-variant dark (&:is(.dark *));
 
-body {
+/* body {
   font-family: 'Montserrat', sans-serif;
-}
+} */
         /* stroke animations */
         .center-path { stroke-dasharray: 900; stroke-dashoffset: 900; animation: drawCenter 2.8s ease-in-out infinite; }
         .side-path { stroke-dasharray: 700; stroke-dashoffset: 700; animation: drawSide 3.4s ease-in-out infinite; }
