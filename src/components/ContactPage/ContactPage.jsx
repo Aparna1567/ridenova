@@ -271,6 +271,8 @@ import {
 import { IoIosSend } from 'react-icons/io';
 import { contactPageStyles as styles } from '../../assets/dummyStyles';
 
+import { Textarea } from "@/components/ui/textarea";
+
 const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -438,7 +440,7 @@ const ContactPage = () => {
                     <div className={styles.textareaIcon}>
                       <FaComment />
                     </div>
-                    <textarea
+                    {/* <textarea
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
@@ -446,7 +448,17 @@ const ContactPage = () => {
                       rows="3"
                       placeholder="Tell us about your rental needs..."
                       className={styles.textarea(activeField === 'message')}
-                    />
+                    /> */}
+                      <Textarea
+  name="message"
+  value={formData.message}
+  onChange={handleChange}
+  required
+  rows={3}
+  placeholder="Tell us about your rental needs..."
+  className={styles.textarea(activeField === 'message')}
+/>
+
                   </div>
 
                   <button type="submit" className={styles.submitButton}>
