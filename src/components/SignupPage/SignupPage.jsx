@@ -12,7 +12,7 @@ import {
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom';
-import logo from '../../assets/logocar.png';
+import logo from '../../assets/logocar.webp';
 import { signupStyles } from '../../assets/dummyStyles'; // Import styles
 
 const SignupPage = () => {

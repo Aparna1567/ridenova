@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes, FaUser, FaSignOutAlt } from 'react-icons/fa';
-import logo from '../../assets/logocar.png';
+import logo from '../../assets/logocar.webp';
 import { navbarStyles as styles } from '../../assets/dummyStyles';
 
 const Navbar = () => {

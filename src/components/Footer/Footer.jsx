@@ -3,7 +3,7 @@ import React from 'react';
 import { FaCar, FaPhone, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { GiCarKey } from 'react-icons/gi';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logocar.png';
+import logo from '../../assets/logocar.webp';
 import { footerStyles as styles } from '../../assets/dummyStyles';
 
 const Footer = () => {

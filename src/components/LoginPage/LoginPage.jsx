@@ -10,7 +10,7 @@ import {
 import { toast, ToastContainer } from 'react-toastify';
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
-import logo from '../../assets/logocar.png';
+import logo from '../../assets/logocar.webp';
 import { loginStyles } from '../../assets/dummyStyles'; // Import styles
 
 const LoginPage = () => {
